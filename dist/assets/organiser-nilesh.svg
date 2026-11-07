@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 900" role="img" aria-label="Nilesh Kumar">
+  <defs><linearGradient id="g" x1="1" y1="0" x2="0" y2="1"><stop stop-color="#10211c"/><stop offset=".55" stop-color="#171121"/><stop offset="1" stop-color="#050506"/></linearGradient><pattern id="p" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.4" fill="#a7f432" opacity=".16"/></pattern></defs>
+  <rect width="720" height="900" fill="url(#g)"/><rect width="720" height="900" fill="url(#p)"/>
+  <circle cx="360" cy="385" r="176" fill="#141319" stroke="#9d63ff" stroke-opacity=".48" stroke-width="3"/>
+  <text x="360" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="128" font-weight="700" fill="#f5f7f7">NK</text>
+  <path d="M70 770h580" stroke="#c7e1e5" stroke-opacity=".2"/><text x="70" y="820" font-family="Arial, sans-serif" font-size="25" letter-spacing="7" fill="#c7e1e5">VICE-LEAD</text>
+</svg>

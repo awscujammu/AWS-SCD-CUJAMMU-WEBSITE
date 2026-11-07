@@ -1,0 +1,1763 @@
+
+/* FINAL SPATIAL EVENT IDENTITY — gold, obsidian, dimensional campus */
+:root {
+  --ice: #d5ad55;
+  --green: #d5ad55;
+}
+body {
+  background: #080807;
+  color: #f5f0e6;
+}
+.nav {
+  width: min(1320px,calc(100% - 44px));
+  margin: 12px auto 0;
+  border: 1px solid rgba(213,173,85,.28);
+  border-radius: 20px;
+  background: rgba(8,8,7,.88);
+  box-shadow: 0 12px 55px rgba(0,0,0,.48),inset 0 1px rgba(255,255,255,.045);
+}
+.navin {
+  height: 70px;
+}
+.brand {
+  gap: 14px;
+}
+.brand span {
+  font-size: .76rem;
+  letter-spacing: .01em;
+}
+.brand i {
+  color: #d5ad55;
+}
+.eventBrandMark {
+  display: block !important;
+  width: 176px;
+  height: 48px;
+  object-fit: contain;
+  filter: drop-shadow(0 5px 14px rgba(213,173,85,.15));
+}
+.navlinks>a {
+  border: 0;
+  border-radius: 9px;
+  height: 40px;
+  padding: 0 13px;
+  color: #d6d0c4;
+}
+.navlinks>a:hover {
+  background: rgba(213,173,85,.1);
+  color: #f3dca6;
+}
+.btn {
+  background: linear-gradient(135deg,#f0d48e,#bd8d38 60%,#9c702b);
+  color: #171108;
+  border: 1px solid rgba(255,235,184,.55);
+  border-radius: 9px;
+  box-shadow: 0 10px 30px rgba(190,143,57,.2);
+  transition: transform .25s,box-shadow .25s;
+}
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 18px 42px rgba(190,143,57,.28);
+}
+.btn.dark {
+  background: rgba(255,255,255,.035);
+  color: #f1e8d5;
+  border: 1px solid rgba(213,173,85,.42);
+  box-shadow: inset 0 1px rgba(255,255,255,.05);
+}
+.hero {
+  background: radial-gradient(ellipse at 78% 48%,rgba(194,148,62,.2),transparent 43%),radial-gradient(ellipse at 20% 80%,rgba(115,78,24,.12),transparent 38%),#080807;
+}
+.heroGrid {
+  min-height: 790px;
+  grid-template-columns: .78fr 1.22fr;
+  gap: 32px;
+}
+.heroCopy h1 {
+  font-family: Georgia,serif;
+  font-weight: 500;
+}
+.heroCopy h1 .ice {
+  background: linear-gradient(120deg,#fff0c9,#d5ad55 65%,#8f682e);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.heroCopy h1 small {
+  color: #d5ad55;
+}
+.heroLead {
+  color: #c1b8a7;
+}
+.heroAwsLogo.eventHeroMark {
+  width: min(300px,90%);
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 12px 25px rgba(213,173,85,.16));
+  margin: 0 0 28px;
+}
+.heroVisual {
+  perspective: 1900px;
+  transform-style: preserve-3d;
+  min-height: 630px;
+}
+.heroCampus {
+  inset: 7% -2% 18% 0 !important;
+  transform: perspective(1700px) rotateY(-16deg) rotateX(5deg) rotateZ(-1deg) translateZ(24px);
+  transform-style: preserve-3d;
+  border-radius: 10px !important;
+  overflow: visible !important;
+  filter: drop-shadow(30px 45px 34px rgba(0,0,0,.7));
+}
+.heroCampus:before {
+  inset: 4% -4% -7% 5% !important;
+  border: 1px solid rgba(232,192,103,.68) !important;
+  border-radius: 10px !important;
+  background: linear-gradient(145deg,rgba(255,229,169,.16),rgba(8,8,7,.55)) !important;
+  box-shadow: 22px 28px 0 -9px rgba(213,173,85,.2),42px 48px 0 -18px rgba(213,173,85,.11),0 0 95px rgba(213,173,85,.18) !important;
+  transform: translateZ(-58px) scale(1.02) !important;
+}
+.heroCampus img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  object-position: center 54% !important;
+  border: 1px solid rgba(238,202,125,.72) !important;
+  border-radius: 10px !important;
+  filter: saturate(.88) contrast(1.12) !important;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.1),0 34px 70px rgba(0,0,0,.65) !important;
+  transform: translateZ(34px);
+}
+.heroCampus:after {
+  border-radius: 10px !important;
+  background: linear-gradient(115deg,rgba(255,255,255,.22),transparent 25% 68%,rgba(213,173,85,.2)) !important;
+}
+.campusGlow {
+  background: radial-gradient(ellipse,rgba(213,173,85,.42),transparent 68%);
+}
+.campusTag,.campusDepth {
+  border-radius: 3px !important;
+  border-color: rgba(213,173,85,.55) !important;
+  color: #f4e6c6 !important;
+  background: rgba(8,8,7,.72) !important;
+  backdrop-filter: blur(12px);
+}
+.eventPanel {
+  border: 1px solid rgba(213,173,85,.55) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 24px 65px rgba(0,0,0,.55),0 0 45px rgba(213,173,85,.12);
+  transform: translateZ(90px);
+}
+.dateTile {
+  background: linear-gradient(145deg,#f0d48e,#bd8d38) !important;
+  color: #161006 !important;
+}
+.clockLabel,.clockFoot {
+  color: #d5ad55 !important;
+}
+.ticker {
+  background: linear-gradient(90deg,#b98b3e,#e3c274,#b98b3e) !important;
+}
+.tickerItem {
+  color: #171108 !important;
+}
+.tickerItem:after {
+  color: #171108 !important;
+}
+.section {
+  border-color: rgba(213,173,85,.13) !important;
+}
+.section h2,.pageHero h1 {
+  font-family: Georgia,serif;
+  font-weight: 500;
+  letter-spacing: -.055em;
+}
+.feature,.card,.sponsor,.speakerCard,.packageCard,.benefitGrid article,.timeRow,.faqList details,.organiserCard,.subTeamCard,.venuePlan>div {
+  border-radius: 12px !important;
+  border-color: rgba(213,173,85,.2) !important;
+  background: linear-gradient(145deg,rgba(34,29,20,.94),rgba(10,10,9,.98)) !important;
+  box-shadow: 0 24px 70px rgba(0,0,0,.32),inset 0 1px rgba(255,255,255,.045);
+}
+.feature:hover,.card:hover,.sponsor:hover,.speakerCard:hover,.packageCard:hover,.benefitGrid article:hover {
+  border-color: rgba(213,173,85,.7) !important;
+  box-shadow: 0 35px 80px rgba(0,0,0,.55),0 0 30px rgba(213,173,85,.09);
+}
+.sponsorSection {
+  background: radial-gradient(ellipse at 85% 20%,rgba(213,173,85,.12),transparent 38%),#090908;
+}
+.packageCard {
+  background: linear-gradient(145deg,#211d15,#0b0a09 75%) !important;
+  border-color: rgba(213,173,85,.28) !important;
+}
+.packageCard>strong {
+  color: #e2c98e;
+}
+.packageCard li:before {
+  color: #d5ad55;
+}
+.pageHero {
+  background: radial-gradient(ellipse at 82% 45%,rgba(213,173,85,.16),transparent 40%),#090908;
+}
+.communityCta {
+  background: linear-gradient(110deg,#17140e,#080808) !important;
+  border-color: rgba(213,173,85,.3) !important;
+}
+.communityCta h2 span {
+  color: #d5ad55 !important;
+}
+.footer {
+  background: #070707 !important;
+  border-top: 1px solid rgba(213,173,85,.25);
+}
+.footerBottom {
+  border-color: rgba(213,173,85,.2) !important;
+}
+.footerBottom b {
+  color: #d5ad55;
+}
+.freeRegistration {
+  background: radial-gradient(ellipse at 75% 50%,rgba(213,173,85,.12),transparent 45%),#090908;
+}
+.freeRegPanel {
+  position: relative;
+  overflow: hidden;
+  padding: clamp(28px,5vw,68px);
+  border: 1px solid rgba(213,173,85,.4);
+  border-radius: 18px;
+  background: linear-gradient(135deg,rgba(38,31,18,.94),rgba(9,9,8,.98));
+  box-shadow: 0 35px 90px rgba(0,0,0,.5),inset 0 1px rgba(255,255,255,.08);
+  transform-style: preserve-3d;
+}
+.freeRegPanel:after {
+  content: "FREE / 2026";
+  position: absolute;
+  right: -2%;
+  bottom: -16%;
+  font-size: clamp(5rem,15vw,13rem);
+  font-weight: 900;
+  letter-spacing: -.1em;
+  color: rgba(213,173,85,.045);
+  pointer-events: none;
+}
+.freeRegPanel h2 {
+  font: 500 clamp(3rem,7vw,6.5rem)/.9 Georgia,serif;
+  letter-spacing: -.06em;
+  margin: 20px 0;
+}
+.freeRegPanel h2 span {
+  color: #d5ad55;
+}
+.freeRegPanel p {
+  max-width: 760px;
+  color: #c6bdad;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+.freeRegMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 25px 0;
+}
+.freeRegMeta span {
+  padding: 10px 14px;
+  border: 1px solid rgba(213,173,85,.28);
+  border-radius: 999px;
+  color: #e4d3ad;
+  font-size: .75rem;
+}
+@media (max-width:900px) {
+  .nav {
+    width: calc(100% - 20px);
+  }
+  .eventBrandMark {
+    width: 138px;
+  }
+  .navlinks>a {
+    padding: 0 8px;
+    font-size: .65rem;
+  }
+  .heroGrid {
+    grid-template-columns: 1fr;
+    min-height: 0;
+    padding: 65px 0 85px;
+  }
+  .heroVisual {
+    min-height: 510px;
+  }
+  .heroCampus {
+    inset: 4% 2% 18% 2% !important;
+  }
+  .eventPanel {
+    min-width: min(500px,94%);
+  }
+}
+@media (max-width:620px) {
+  .navin {
+    height: auto;
+    min-height: 64px;
+    flex-wrap: wrap;
+    padding: 8px;
+  }
+  .eventBrandMark {
+    width: 128px;
+  }
+  .brand span {
+    font-size: .65rem;
+  }
+  .navlinks {
+    width: 100%;
+    height: auto;
+    overflow-x: auto;
+    justify-content: flex-start;
+  }
+  .navlinks>a {
+    height: 34px;
+    white-space: nowrap;
+  }
+  .heroGrid {
+    padding-top: 48px;
+  }
+  .heroCopy h1 {
+    font-size: clamp(3.6rem,16vw,5.8rem);
+  }
+  .heroVisual {
+    min-height: 400px;
+  }
+  .heroCampus {
+    inset: 4% 0 20% 0 !important;
+    transform: perspective(1200px) rotateY(-7deg) rotateX(3deg) !important;
+  }
+  .eventPanel {
+    grid-template-columns: 75px 1fr;
+    right: 0;
+    bottom: 0;
+    min-width: 0;
+    width: 100%;
+  }
+  .dateTile {
+    padding: 12px 8px;
+  }
+  .clock {
+    padding: 12px;
+  }
+  .countdown {
+    gap: 6px;
+  }
+  .countdown strong {
+    font-size: 1.1rem;
+  }
+  .freeRegPanel {
+    padding: 26px 20px;
+  }
+  .freeRegMeta {
+    gap: 7px;
+  }
+  .freeRegMeta span {
+    font-size: .68rem;
+  }
+}
+@media (prefers-reduced-motion:reduce) {
+  .heroCampus,.btn {
+    transition: none !important;
+  }
+}
+/* Hero fit + replaceable site identity */
+.nav {
+  width: min(1460px,calc(100% - 48px));
+  margin: 10px auto 0;
+}
+.navin {
+  height: 66px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  min-width: 190px;
+}
+.eventBrandMark {
+  width: 218px !important;
+  height: 54px !important;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: left center;
+}
+.hero {
+  min-height: 0 !important;
+  overflow: hidden;
+}
+.heroGrid {
+  min-height: clamp(650px,calc(100svh - 92px),790px) !important;
+  height: auto;
+  grid-template-columns: minmax(360px,.72fr) minmax(0,1.28fr) !important;
+  gap: clamp(22px,3vw,48px) !important;
+  padding: clamp(24px,4vh,42px) 0 clamp(28px,4vh,42px) !important;
+  align-items: center;
+}
+.heroCopy {
+  max-width: 650px;
+}
+.heroCopy h1 {
+  font-size: clamp(4rem,6.1vw,6.4rem) !important;
+  line-height: .86 !important;
+  margin: 0;
+}
+.heroCopy h1 small {
+  font-size: .31em !important;
+  line-height: 1.25 !important;
+}
+.heroCopy h1 .cityCycle {
+  font-size: .42em !important;
+  min-height: .95em !important;
+  margin-top: 7px !important;
+}
+.heroLead {
+  font-size: clamp(.92rem,1.15vw,1.05rem) !important;
+  line-height: 1.65 !important;
+  margin: 24px 0 0 !important;
+  max-width: 540px;
+}
+.heroActions {
+  margin: 26px 0 0 !important;
+  gap: 10px;
+}
+.heroVisual {
+  height: clamp(440px,60vh,570px) !important;
+  min-height: 0 !important;
+  width: 100%;
+  align-self: center;
+}
+.heroCampus {
+  inset: 5% 0 17% 1% !important;
+}
+.eventPanel {
+  right: 1% !important;
+  bottom: 0 !important;
+  min-width: 0 !important;
+  width: min(92%,610px) !important;
+  grid-template-columns: 112px minmax(0,1fr) !important;
+  transform: translateZ(45px) !important;
+}
+.clock {
+  min-width: 0;
+}
+.countdown {
+  grid-template-columns: repeat(4,minmax(0,1fr)) !important;
+  gap: clamp(5px,1.2vw,14px) !important;
+}
+.countdown strong {
+  font-size: clamp(1.15rem,2vw,1.55rem) !important;
+}
+.heroVisual:after {
+  right: 0 !important;
+}
+@media (min-width:1500px) {
+  .heroGrid {
+    max-width: 1540px;
+  }
+  .heroVisual {
+    height: min(62vh,600px) !important;
+  }
+}
+@media (max-width:1050px) {
+  .nav {
+    width: calc(100% - 28px);
+  }
+  .eventBrandMark {
+    width: 190px !important;
+  }
+  .heroGrid {
+    grid-template-columns: minmax(300px,.82fr) minmax(0,1.18fr) !important;
+    min-height: 690px !important;
+  }
+  .heroCopy h1 {
+    font-size: clamp(3.6rem,6.3vw,5.2rem) !important;
+  }
+  .heroVisual {
+    height: 490px !important;
+  }
+  .eventPanel {
+    width: 98% !important;
+    grid-template-columns: 88px minmax(0,1fr) !important;
+  }
+}
+@media (max-width:760px) {
+  .nav {
+    margin: 8px auto 0;
+  }
+  .navin {
+    height: auto;
+    min-height: 62px;
+  }
+  .eventBrandMark {
+    width: 170px !important;
+    height: 48px !important;
+  }
+  .heroGrid {
+    grid-template-columns: 1fr !important;
+    min-height: 0 !important;
+    padding: 48px 0 62px !important;
+    gap: 14px !important;
+  }
+  .heroCopy h1 {
+    font-size: clamp(3.7rem,13vw,5.6rem) !important;
+  }
+  .heroLead {
+    margin-top: 18px !important;
+  }
+  .heroVisual {
+    height: clamp(390px,105vw,490px) !important;
+    min-height: 0 !important;
+  }
+  .heroCampus {
+    inset: 3% 0 21% 0 !important;
+    transform: perspective(1200px) rotateY(-7deg) rotateX(3deg) !important;
+  }
+  .eventPanel {
+    width: 100% !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    grid-template-columns: 78px minmax(0,1fr) !important;
+  }
+  .dateTile {
+    padding: 12px 8px !important;
+  }
+  .clock {
+    padding: 12px !important;
+  }
+  .clockFoot {
+    font-size: .58rem;
+  }
+}
+@media (max-width:430px) {
+  .eventBrandMark {
+    width: 145px !important;
+  }
+  .heroCopy h1 {
+    font-size: clamp(3.25rem,14vw,4.4rem) !important;
+  }
+  .heroVisual {
+    height: 390px !important;
+  }
+  .eventPanel {
+    grid-template-columns: 66px minmax(0,1fr) !important;
+  }
+  .countdown strong {
+    font-size: 1rem !important;
+  }
+  .countdown span {
+    font-size: .5rem;
+  }
+  .heroActions .btn {
+    padding: 11px 14px;
+    font-size: .68rem;
+  }
+}
+/* GOLD EVENT THEME — loading screen */
+#pre {
+  background: radial-gradient(ellipse at 50% 43%,rgba(213,173,85,.19),transparent 34%),
+    radial-gradient(ellipse at 50% 100%,rgba(126,83,25,.12),transparent 48%),
+    #080807 !important;
+  border: 1px solid rgba(213,173,85,.16);
+}
+#pre>div {
+  padding: 32px 24px;
+  min-width: min(420px,90vw);
+}
+#pre img {
+  width: min(310px,72vw) !important;
+  height: auto !important;
+  max-height: 100px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 12px rgba(213,173,85,.42)) drop-shadow(0 0 32px rgba(213,173,85,.2)) !important;
+}
+#pre p {
+  color: #e7c77e !important;
+  letter-spacing: .19em !important;
+  font-size: .72rem !important;
+  font-weight: 800 !important;
+  text-shadow: 0 0 18px rgba(213,173,85,.28);
+  margin: 22px 0 18px !important;
+}
+#pre i {
+  width: min(260px,70vw) !important;
+  height: 4px !important;
+  background: rgba(213,173,85,.16) !important;
+  border: 1px solid rgba(213,173,85,.24);
+  box-shadow: 0 0 18px rgba(213,173,85,.12);
+}
+#pre i b {
+  background: linear-gradient(90deg,#8f6426,#d5ad55 45%,#ffe8a8) !important;
+  box-shadow: 0 0 14px rgba(213,173,85,.6);
+}
+/* Gold directional arrows, inspired by the reference AWS SBG website */
+.gold-arrow {
+  display: inline-block;
+  color: #e7c36f !important;
+  background: linear-gradient(135deg,#fff0bd 0%,#e5bd63 42%,#a9782b 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  text-shadow: 0 0 14px rgba(213,173,85,.16);
+  line-height: 1;
+  vertical-align: -.035em;
+  transition: transform .22s ease,filter .22s ease;
+}
+a:hover .gold-arrow,button:hover .gold-arrow {
+  transform: translate(2px,-1px);
+  filter: drop-shadow(0 0 5px rgba(213,173,85,.55));
+}
+.btn .gold-arrow {
+  margin-left: 2px;
+  font-size: 1.12em;
+}
+.navlinks .gold-arrow {
+  margin-left: 3px;
+}
+@media (prefers-reduced-motion:reduce) {
+  .gold-arrow {
+    transition: none;
+  }
+}
+/* ORGANISERS — compact, separated portrait cards */
+.organiserGrid.leadershipGrid {
+  display: grid !important;
+  grid-template-columns: repeat(3,minmax(0,1fr)) !important;
+  gap: 22px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  align-items: stretch;
+}
+.organiserGrid.leadershipGrid .organiserCard {
+  min-width: 0;
+  min-height: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  overflow: hidden !important;
+  border: 1px solid rgba(213,173,85,.25) !important;
+  border-radius: 16px !important;
+  background: linear-gradient(155deg,#201b12 0%,#0d0c0a 75%) !important;
+  box-shadow: 0 16px 42px rgba(0,0,0,.32),inset 0 1px rgba(255,255,255,.06) !important;
+  transition: transform .28s ease,border-color .28s ease,box-shadow .28s ease;
+}
+.organiserGrid.leadershipGrid .organiserCard:hover {
+  transform: translateY(-7px);
+  border-color: rgba(226,190,105,.72) !important;
+  box-shadow: 0 25px 58px rgba(0,0,0,.48),0 0 28px rgba(213,173,85,.09) !important;
+}
+.organiserGrid.leadershipGrid .organiserPortrait {
+  display: block;
+  width: 100% !important;
+  height: clamp(230px,25vw,310px) !important;
+  min-height: 0 !important;
+  object-fit: cover !important;
+  object-position: center 28%;
+  background: #17130d !important;
+  border: 0 !important;
+  border-bottom: 1px solid rgba(213,173,85,.18) !important;
+}
+.organiserGrid.leadershipGrid .organiserMeta {
+  flex: 1;
+  min-height: 142px;
+  padding: 22px 23px 24px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start !important;
+  background: linear-gradient(180deg,rgba(255,255,255,.018),transparent);
+}
+.organiserGrid.leadershipGrid .organiserMeta>span:first-child {
+  color: #d5ad55 !important;
+  font-size: .62rem !important;
+  letter-spacing: .16em !important;
+  line-height: 1.5;
+}
+.organiserGrid.leadershipGrid .organiserMeta h3 {
+  margin: 13px 0 7px !important;
+  font-size: clamp(1.2rem,1.7vw,1.55rem) !important;
+  line-height: 1.12 !important;
+  color: #f4eee1;
+}
+.organiserGrid.leadershipGrid .organiserMeta p {
+  font-size: .86rem !important;
+  line-height: 1.55 !important;
+  color: #b9b0a0 !important;
+}
+.subTeamGrid {
+  display: grid !important;
+  grid-template-columns: repeat(4,minmax(0,1fr)) !important;
+  gap: 18px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+}
+.subTeamCard {
+  min-width: 0;
+  border: 1px solid rgba(213,173,85,.2) !important;
+  border-radius: 14px !important;
+  padding: 16px !important;
+  background: linear-gradient(150deg,#1b1811,#0b0b09) !important;
+}
+.subTeamCard .portraitWrap.small {
+  min-height: 0 !important;
+  aspect-ratio: 4/3;
+  border: 1px solid rgba(213,173,85,.2) !important;
+  border-radius: 10px;
+  background: radial-gradient(circle at 50% 35%,rgba(213,173,85,.12),transparent 65%),#10100d;
+}
+.subTeamCard .portraitWrap.small img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.subTeamCard h3 {
+  margin: 16px 0 4px !important;
+  font-size: 1.05rem !important;
+}
+.subTeamCard p {
+  font-size: .75rem !important;
+  color: #b9b0a0 !important;
+}
+@media (max-width:980px) {
+  .organiserGrid.leadershipGrid {
+    grid-template-columns: repeat(2,minmax(0,1fr)) !important;
+    gap: 18px !important;
+  }
+  .organiserGrid.leadershipGrid .organiserPortrait {
+    height: clamp(230px,34vw,300px) !important;
+  }
+  .subTeamGrid {
+    grid-template-columns: repeat(2,minmax(0,1fr)) !important;
+    gap: 14px !important;
+  }
+}
+@media (max-width:560px) {
+  .organiserGrid.leadershipGrid {
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+  }
+  .organiserGrid.leadershipGrid .organiserPortrait {
+    height: 300px !important;
+  }
+  .organiserGrid.leadershipGrid .organiserMeta {
+    min-height: 0;
+    padding: 18px 19px 21px !important;
+  }
+  .subTeamGrid {
+    grid-template-columns: repeat(2,minmax(0,1fr)) !important;
+    gap: 12px !important;
+  }
+  .subTeamCard {
+    padding: 12px !important;
+  }
+}
+@media (prefers-reduced-motion:reduce) {
+  .organiserGrid.leadershipGrid .organiserCard {
+    transition: none;
+  }
+}
+/* FAQ — compact accordion cards with balanced spacing */
+body:has(.faqList) .section>.wrap {
+  max-width: 1040px !important;
+}
+body:has(.faqList) .faqList {
+  display: grid !important;
+  grid-template-columns: 1fr;
+  gap: 12px !important;
+  border: 0 !important;
+  max-width: 100%;
+  margin: 0 auto;
+}
+body:has(.faqList) .faqList details {
+  border: 1px solid rgba(213,173,85,.24) !important;
+  border-radius: 13px !important;
+  overflow: hidden;
+  background: linear-gradient(115deg,rgba(39,31,17,.82),rgba(12,11,9,.98)) !important;
+  box-shadow: 0 10px 28px rgba(0,0,0,.22),inset 0 1px rgba(255,255,255,.035) !important;
+  transition: border-color .22s ease,box-shadow .22s ease,transform .22s ease;
+}
+body:has(.faqList) .faqList details:hover,
+body:has(.faqList) .faqList details[open] {
+  border-color: rgba(224,190,111,.62) !important;
+  box-shadow: 0 14px 34px rgba(0,0,0,.32),0 0 24px rgba(213,173,85,.07) !important;
+}
+body:has(.faqList) .faqList summary {
+  min-height: 64px;
+  padding: 18px 22px !important;
+  gap: 18px !important;
+  font-size: clamp(.96rem,1.35vw,1.08rem) !important;
+  line-height: 1.4;
+  color: #f2ecdf;
+}
+body:has(.faqList) .faqList details p {
+  max-width: 850px !important;
+  padding: 0 22px 20px !important;
+  margin: 0 !important;
+  color: #bdb4a3 !important;
+  font-size: .92rem;
+  line-height: 1.7;
+}
+body:has(.faqList) .faqList .plus {
+  width: 22px;
+  height: 22px;
+  flex-basis: 22px;
+}
+body:has(.faqList) .faqList .plus:before,
+body:has(.faqList) .faqList .plus:after {
+  background: linear-gradient(90deg,#9b702c,#f0d58e) !important;
+  height: 2px;
+  top: 10px;
+}
+body:has(.faqList) .section {
+  padding-top: 38px;
+  padding-bottom: 72px;
+}
+.partnerActions {
+  display: flex !important;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px !important;
+  margin-top: 28px;
+}
+.partnerActions .btn {
+  min-height: 50px;
+  margin: 0 !important;
+}
+.partnerActions .btn.dark {
+  max-width: 100%;
+  white-space: normal;
+  text-align: center;
+  line-height: 1.4;
+}
+@media (max-width:650px) {
+  body:has(.faqList) .section>.wrap {
+    max-width: calc(100% - 30px) !important;
+  }
+  body:has(.faqList) .faqList {
+    gap: 9px !important;
+  }
+  body:has(.faqList) .faqList summary {
+    padding: 15px 16px !important;
+    min-height: 58px;
+  }
+  body:has(.faqList) .faqList details p {
+    padding: 0 16px 17px !important;
+  }
+  .partnerActions {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 12px !important;
+  }
+  .partnerActions .btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+/* Golden mouse cursor across the website; gold hand on interactive controls. */
+html,body,body * {
+  cursor: url("gold-cursor.svg") 2 2,auto !important;
+}
+a,button,[role="button"],summary,label[for],select,input[type="button"],input[type="submit"],input[type="checkbox"],input[type="radio"],[data-add-calendar],a *,button *,summary * {
+  cursor: url("gold-pointer.svg") 8 2,pointer !important;
+}
+input[type="text"],input[type="email"],input[type="tel"],input[type="search"],input[type="number"],input[type="password"],textarea,[contenteditable="true"] {
+  cursor: text !important;
+}
+/* Sub-team portraits: show the complete uploaded photo without cropping */
+.subTeamGrid {
+  gap: 18px !important;
+  border: 0 !important;
+  background: transparent !important;
+  align-items: stretch;
+}
+.subTeamCard {
+  min-width: 0;
+  padding: 14px !important;
+  border: 1px solid rgba(213,173,85,.25) !important;
+  border-radius: 15px !important;
+  overflow: hidden;
+  background: linear-gradient(155deg,#1b1811,#090908 78%) !important;
+}
+.subTeamCard .portraitWrap.small {
+  position: relative !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
+  height: clamp(175px,19vw,230px) !important;
+  min-height: 0 !important;
+  aspect-ratio: auto !important;
+  padding: 8px !important;
+  overflow: hidden !important;
+  border: 1px solid rgba(213,173,85,.22) !important;
+  border-radius: 10px !important;
+  background: radial-gradient(ellipse at 50% 35%,rgba(213,173,85,.11),transparent 68%),#080807 !important;
+}
+.subTeamCard .portraitWrap.small img {
+  position: relative !important;
+  display: block !important;
+  inset: auto !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+  object-fit: contain !important;
+  object-position: center center !important;
+  border-radius: 6px;
+}
+.subTeamCard .portraitWrap.small b {
+  display: none !important;
+}
+.subTeamCard h3 {
+  margin: 13px 2px 4px !important;
+  font-size: 1.05rem !important;
+}
+.subTeamCard p {
+  margin: 0 2px 3px !important;
+  font-size: .75rem !important;
+  color: #b9b0a0 !important;
+}
+@media (max-width:980px) {
+  .subTeamGrid {
+    grid-template-columns: repeat(2,minmax(0,1fr)) !important;
+    gap: 14px !important;
+  }
+  .subTeamCard .portraitWrap.small {
+    height: clamp(170px,28vw,220px) !important;
+  }
+}
+@media (max-width:560px) {
+  .subTeamGrid {
+    grid-template-columns: repeat(2,minmax(0,1fr)) !important;
+    gap: 10px !important;
+  }
+  .subTeamCard {
+    padding: 9px !important;
+  }
+  .subTeamCard .portraitWrap.small {
+    height: 155px !important;
+    padding: 5px !important;
+  }
+  .subTeamCard h3 {
+    font-size: .9rem !important;
+  }
+  .subTeamCard p {
+    font-size: .65rem !important;
+  }
+}
+/* Organising sub-team: circular photo portraits */
+.subTeamCard .portraitWrap.small {
+  position: relative !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
+  height: clamp(205px,22vw,245px) !important;
+  min-height: 0 !important;
+  aspect-ratio: auto !important;
+  padding: 12px !important;
+  overflow: hidden !important;
+  border: 1px solid rgba(213,173,85,.22) !important;
+  border-radius: 12px !important;
+  background: radial-gradient(ellipse at 50% 40%,rgba(213,173,85,.12),transparent 70%),#080807 !important;
+}
+.subTeamCard .portraitWrap.small img {
+  position: relative !important;
+  display: block !important;
+  inset: auto !important;
+  width: 190px !important;
+  height: 190px !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+  aspect-ratio: 1/1 !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  border-radius: 50% !important;
+  border: 2px solid rgba(213,173,85,.7) !important;
+  box-shadow: 0 8px 28px rgba(0,0,0,.4),0 0 0 5px rgba(213,173,85,.08) !important;
+}
+.subTeamCard:nth-child(4) .portraitWrap.small img {
+  object-fit: cover !important;
+  object-position: center 42% !important;
+}
+.subTeamCard .portraitWrap.small b {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+}
+.subTeamCard h3 {
+  margin: 14px 2px 4px !important;
+  font-size: 1.05rem !important;
+}
+.subTeamCard p {
+  margin: 0 2px 3px !important;
+  font-size: .75rem !important;
+  color: #b9b0a0 !important;
+}
+@media (max-width:980px) {
+  .subTeamGrid {
+    grid-template-columns: repeat(2,minmax(0,1fr)) !important;
+    gap: 14px !important;
+  }
+  .subTeamCard .portraitWrap.small {
+    height: 220px !important;
+  }
+}
+@media (max-width:560px) {
+  .subTeamGrid {
+    grid-template-columns: repeat(2,minmax(0,1fr)) !important;
+    gap: 10px !important;
+  }
+  .subTeamCard {
+    padding: 9px !important;
+  }
+  .subTeamCard .portraitWrap.small {
+    height: 175px !important;
+    padding: 7px !important;
+  }
+  .subTeamCard .portraitWrap.small img {
+    width: 145px !important;
+    height: 145px !important;
+  }
+  .subTeamCard h3 {
+    font-size: .9rem !important;
+  }
+  .subTeamCard p {
+    font-size: .65rem !important;
+  }
+}
+/* Final portrait crop correction: fill every circular avatar, including Unnati's portrait */
+.subTeamCard .portraitWrap.small img {
+  object-fit: cover !important;
+  object-position: center center !important;
+}
+.subTeamCard:nth-child(4) .portraitWrap.small img {
+  object-fit: cover !important;
+  object-position: center 42% !important;
+  background: transparent !important;
+}
+
+
+
+/* -------------------------------------------------------
+   Layout polish: separate cards, remove wrapper outlines,
+   and keep the event pages comfortable on small screens.
+   ------------------------------------------------------- */
+
+/* Track and feature cards should read as separate panels. */
+.cardGrid,
+.featureGrid {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 18px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  align-items: stretch;
+}
+
+.cardGrid > .card,
+.featureGrid > .feature {
+  min-width: 0;
+  min-height: 245px;
+  padding: 30px !important;
+  overflow: hidden;
+  border: 1px solid rgba(213, 173, 85, 0.24) !important;
+  border-radius: 16px !important;
+  background:
+    radial-gradient(circle at 8% 5%, rgba(213, 173, 85, 0.09), transparent 42%),
+    linear-gradient(145deg, #1b1811, #0b0b09 78%) !important;
+  box-shadow:
+    0 14px 36px rgba(0, 0, 0, 0.28),
+    inset 0 1px rgba(255, 255, 255, 0.035) !important;
+}
+
+.cardGrid > .card h3 {
+  margin: 34px 0 12px !important;
+  line-height: 1.18;
+}
+
+.cardGrid > .card p,
+.featureGrid > .feature p {
+  line-height: 1.65;
+}
+
+/* Remove thin square outlines and glow spill around grid wrappers. */
+.cardGrid,
+.featureGrid,
+.agendaSchedule,
+.journeyLine {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+/* Separate the pre-event arrival stop from the main event day. */
+.journeyLine {
+  display: grid;
+  gap: 30px;
+  max-width: 1040px;
+  margin: 34px auto 0;
+}
+
+.journeyLine::before {
+  display: none !important;
+}
+
+.journeyStop {
+  position: relative;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 26px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 56px minmax(0, 1fr);
+  gap: 24px;
+  align-items: center;
+  border: 1px solid rgba(213, 173, 85, 0.24);
+  border-radius: 16px;
+  background:
+    radial-gradient(circle at 8% 5%, rgba(213, 173, 85, 0.075), transparent 40%),
+    linear-gradient(145deg, #19160f, #0b0b09 78%);
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.25);
+}
+
+.journeyStop.featured {
+  border-color: rgba(213, 173, 85, 0.42);
+  background:
+    radial-gradient(circle at 90% 10%, rgba(213, 173, 85, 0.12), transparent 42%),
+    linear-gradient(145deg, #201a10, #0b0b09 78%);
+}
+
+.journeyDate,
+.journeyCopy {
+  min-width: 0;
+  text-align: left;
+  padding: 0;
+}
+
+.journeyNode {
+  position: relative;
+  z-index: 1;
+  justify-self: center;
+}
+
+/* Give every agenda item its own rounded panel instead of one long box. */
+.agendaSchedule {
+  border-left: 0 !important;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.scheduleGroupLabel {
+  padding: 12px 4px 4px !important;
+  border: 0 !important;
+  margin-top: 8px;
+}
+
+.agendaSlot {
+  display: grid;
+  grid-template-columns: 105px 38px minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+  margin: 0 !important;
+  padding: 22px 24px !important;
+  border: 1px solid rgba(213, 173, 85, 0.22) !important;
+  border-radius: 14px !important;
+  background:
+    radial-gradient(circle at 5% 0%, rgba(213, 173, 85, 0.07), transparent 42%),
+    linear-gradient(145deg, #19160f, #0b0b09 78%) !important;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.2) !important;
+}
+
+.agendaSlot:last-child {
+  border-bottom: 1px solid rgba(213, 173, 85, 0.22) !important;
+}
+
+.agendaSlot > div {
+  min-width: 0;
+}
+
+.agendaSlot h3 {
+  line-height: 1.3;
+}
+
+.agendaSlot p {
+  line-height: 1.6;
+}
+
+/* Prevent oversized desktop widths and grid overflow. */
+.wrap {
+  width: min(1120px, calc(100% - 48px)) !important;
+}
+
+img,
+svg,
+video {
+  max-width: 100%;
+}
+
+@media (max-width: 760px) {
+  .cardGrid,
+  .featureGrid {
+    grid-template-columns: 1fr !important;
+    gap: 14px !important;
+  }
+
+  .cardGrid > .card,
+  .featureGrid > .feature {
+    min-height: 0;
+    padding: 24px !important;
+  }
+
+  .cardGrid > .card h3 {
+    margin: 24px 0 10px !important;
+  }
+
+  .journeyLine {
+    gap: 18px;
+    margin-top: 24px;
+  }
+
+  .journeyStop {
+    grid-template-columns: 1fr !important;
+    gap: 14px !important;
+    padding: 20px !important;
+  }
+
+  .journeyDate,
+  .journeyCopy {
+    grid-column: 1 !important;
+    grid-row: auto !important;
+    text-align: left !important;
+  }
+
+  .journeyNode {
+    display: none;
+  }
+
+  .agendaDayGrid {
+    grid-template-columns: 1fr !important;
+    gap: 26px !important;
+  }
+
+  .agendaDayAside {
+    position: static !important;
+  }
+
+  .agendaSlot {
+    grid-template-columns: 1fr !important;
+    gap: 8px !important;
+    padding: 18px !important;
+  }
+
+  .agendaSlot .slotMark {
+    display: none !important;
+  }
+
+  .agendaSlot time {
+    font-size: 0.72rem;
+    color: #d5ad55;
+  }
+
+  .scheduleGroupLabel {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 420px) {
+  .wrap {
+    width: calc(100% - 32px) !important;
+  }
+
+  .cardGrid > .card,
+  .featureGrid > .feature {
+    padding: 20px !important;
+    border-radius: 13px !important;
+  }
+
+  .journeyStop {
+    padding: 17px !important;
+    border-radius: 13px !important;
+  }
+
+  .agendaSlot {
+    padding: 16px !important;
+    border-radius: 12px !important;
+  }
+}
+
+
+
+/* Navbar identity: gold event mark with a clear two-line title. */
+.brand.eventBrand {
+  display: inline-flex !important;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 12px !important;
+  min-width: 0;
+  text-decoration: none;
+}
+
+.brand.eventBrand .eventBrandMark {
+  display: block !important;
+  flex: 0 0 52px;
+  width: 52px !important;
+  height: 52px !important;
+  object-fit: contain;
+  filter: drop-shadow(0 0 9px rgba(213, 173, 85, .25));
+}
+
+.brand.eventBrand .eventBrandText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 4px;
+  min-width: 0;
+  line-height: 1.08;
+  white-space: nowrap;
+}
+
+.brand.eventBrand .eventBrandText strong {
+  color: #f0d48e;
+  font-size: .76rem;
+  font-weight: 850;
+  letter-spacing: .055em;
+}
+
+.brand.eventBrand .eventBrandText em {
+  color: #d5ad55;
+  font-size: .68rem;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: .2em;
+}
+
+@media (max-width: 680px) {
+  .brand.eventBrand {
+    gap: 9px !important;
+  }
+
+  .brand.eventBrand .eventBrandMark {
+    flex-basis: 43px;
+    width: 43px !important;
+    height: 43px !important;
+  }
+
+  .brand.eventBrand .eventBrandText strong {
+    font-size: .62rem;
+    letter-spacing: .035em;
+  }
+
+  .brand.eventBrand .eventBrandText em {
+    font-size: .58rem;
+    letter-spacing: .16em;
+  }
+
+  .navin {
+    gap: 8px;
+  }
+}
+
+@media (max-width: 360px) {
+  .brand.eventBrand .eventBrandMark {
+    flex-basis: 38px;
+    width: 38px !important;
+    height: 38px !important;
+  }
+
+  .brand.eventBrand .eventBrandText strong {
+    font-size: .55rem;
+  }
+
+  .brand.eventBrand .eventBrandText em {
+    font-size: .52rem;
+  }
+}
+
+
+/* Gold pixel-chip event logo */
+.brand.eventBrand .eventBrandMark {
+  image-rendering: pixelated;
+  object-fit: contain;
+  filter: drop-shadow(0 0 7px rgba(213, 173, 85, .32));
+}
+
+
+
+/* -------------------------------------------------------
+   Final layout refinements: wider page, tighter hero,
+   clearer agenda spacing and responsive partner actions.
+   ------------------------------------------------------- */
+
+/* Use the available screen width instead of leaving large
+   empty margins around the hero and navigation. */
+.wrap {
+  width: min(1540px, calc(100% - 64px)) !important;
+  max-width: 1540px !important;
+}
+
+.navin {
+  width: min(1540px, calc(100% - 64px)) !important;
+  max-width: 1540px !important;
+  margin-inline: auto !important;
+}
+
+.heroGrid {
+  width: min(1540px, calc(100% - 64px)) !important;
+  max-width: 1540px !important;
+  grid-template-columns: minmax(0, .82fr) minmax(0, 1.18fr) !important;
+  gap: clamp(24px, 3vw, 52px) !important;
+  padding-top: 38px !important;
+  padding-bottom: 34px !important;
+}
+
+.heroCopy,
+.heroVisual {
+  min-width: 0;
+}
+
+.heroVisual {
+  min-height: clamp(470px, 39vw, 620px) !important;
+}
+
+.heroCampus img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Give each programme row its own visible breathing room. */
+.agendaSchedule {
+  gap: 18px !important;
+}
+
+.agendaSlot {
+  margin: 0 !important;
+  border-radius: 16px !important;
+  padding: 24px 26px !important;
+}
+
+/* The partnership CTA and interest form are separate actions. */
+.partnerActions {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: stretch !important;
+  gap: 18px !important;
+  margin-top: 28px !important;
+}
+
+.partnerActions .btn {
+  width: auto !important;
+  max-width: 100%;
+  min-height: 56px;
+  white-space: normal;
+  justify-content: center;
+}
+
+.partnerActions .btn.dark {
+  flex: 1 1 420px;
+}
+
+/* Tablet and mobile: use the full viewport without overflow. */
+@media (max-width: 900px) {
+  .wrap,
+  .navin,
+  .heroGrid {
+    width: calc(100% - 40px) !important;
+  }
+
+  .heroGrid {
+    grid-template-columns: 1fr !important;
+    gap: 24px !important;
+    padding-top: 34px !important;
+  }
+
+  .heroVisual {
+    min-height: clamp(340px, 72vw, 500px) !important;
+  }
+
+  .agendaSchedule {
+    gap: 14px !important;
+  }
+
+  .agendaSlot {
+    padding: 20px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .wrap,
+  .navin,
+  .heroGrid {
+    width: calc(100% - 28px) !important;
+  }
+
+  .navin {
+    gap: 8px !important;
+  }
+
+  .heroGrid {
+    padding-top: 26px !important;
+    padding-bottom: 28px !important;
+  }
+
+  .heroVisual {
+    min-height: 330px !important;
+  }
+
+  .heroCampus {
+    inset: 2% 0 23% 0 !important;
+  }
+
+  .eventPanel {
+    grid-template-columns: 70px minmax(0, 1fr) !important;
+  }
+
+  .agendaSchedule {
+    gap: 12px !important;
+  }
+
+  .agendaSlot {
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 8px !important;
+    padding: 17px !important;
+  }
+
+  .partnerActions {
+    flex-direction: column !important;
+    gap: 14px !important;
+  }
+
+  .partnerActions .btn,
+  .partnerActions .btn.dark {
+    width: 100% !important;
+    flex: 1 1 auto !important;
+    min-height: 52px;
+  }
+}
+
+
+
+
+/* Final spacing fixes requested for Jammu landmarks and partner links. */
+.hostRegion .hostRegionArt {
+  margin-bottom: 28px !important;
+}
+
+.hostRegion .cardGrid {
+  margin-top: 0 !important;
+}
+
+.partnerActions {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: flex-start !important;
+  gap: 18px 18px !important;
+  row-gap: 18px !important;
+  column-gap: 18px !important;
+}
+
+.partnerActions > .btn + .btn {
+  margin: 0 0 0 0 !important;
+}
+
+@media (max-width: 600px) {
+  .hostRegion .hostRegionArt {
+    margin-bottom: 22px !important;
+  }
+
+  .partnerActions {
+    gap: 14px !important;
+    row-gap: 14px !important;
+  }
+
+  .partnerActions > .btn + .btn {
+    margin-top: 14px !important;
+  }
+}
+
+
+
+
+/* Separate each event timeline item into its own readable card. */
+.timeline {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 18px !important;
+  border: 0 !important;
+  border-top: 0 !important;
+}
+
+.timeline .timeRow {
+  margin: 0 !important;
+  border: 1px solid rgba(213, 173, 85, .24) !important;
+  border-radius: 15px !important;
+  padding: 26px 24px !important;
+  background:
+    radial-gradient(circle at 0 0, rgba(213, 173, 85, .075), transparent 45%),
+    linear-gradient(145deg, #19160f, #0b0b09 78%) !important;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, .22) !important;
+}
+
+.timeline .timeRow:last-child {
+  border-bottom: 1px solid rgba(213, 173, 85, .24) !important;
+}
+
+.timeline .timeRow.active {
+  border-color: rgba(213, 173, 85, .42) !important;
+  background:
+    radial-gradient(circle at 0 0, rgba(213, 173, 85, .11), transparent 48%),
+    linear-gradient(145deg, #1c180f, #0b0b09 78%) !important;
+}
+
+@media (max-width: 900px) {
+  .timeline {
+    gap: 14px !important;
+  }
+
+  .timeline .timeRow {
+    padding: 21px 19px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .timeline {
+    gap: 12px !important;
+  }
+
+  .timeline .timeRow {
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 8px !important;
+    padding: 17px !important;
+  }
+
+  .timeline .timeRow.active:before {
+    left: auto;
+    right: 16px;
+    top: 18px;
+  }
+}
+
+
+
+
+/* Give each sponsor its own card; remove the joined grid frame behind them. */
+.sponsorGrid {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 24px !important;
+  background: transparent !important;
+  border: 0 !important;
+  padding: 0 !important;
+  margin-top: 26px !important;
+}
+
+.sponsorGrid > .sponsor {
+  min-width: 0;
+  border: 1px solid rgba(213, 173, 85, .24) !important;
+  border-radius: 16px !important;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 12% 8%, rgba(213, 173, 85, .08), transparent 48%),
+    linear-gradient(145deg, #19160f, #0b0b09 78%) !important;
+  box-shadow: 0 16px 38px rgba(0, 0, 0, .28) !important;
+}
+
+@media (max-width: 700px) {
+  .sponsorGrid {
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 16px !important;
+    margin-top: 20px !important;
+  }
+
+  .sponsorGrid > .sponsor {
+    min-height: 210px;
+    padding: 26px 20px !important;
+  }
+}
+
+
+
+
+/* Keep the partnership links visually separate. */
+.partnershipLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  margin-top: 18px;
+}
+
+.partnershipLinks .btn {
+  margin: 0 !important;
+}
+
+.partnershipLinks .btn.dark {
+  width: min(100%, 720px);
+  flex: none;
+}
+
+@media (max-width: 650px) {
+  .partnershipLinks {
+    gap: 14px;
+  }
+
+  .partnershipLinks .btn {
+    max-width: 100%;
+  }
+
+  .partnershipLinks .btn.dark {
+    width: 100%;
+  }
+}
+
+
+/* Speaker placeholders: keep the content, remove the visible card panel. */
+.speakerStack .speakerCard {
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  outline: 0 !important;
+}
+
+.speakerStack .speakerCard::before,
+.speakerStack .speakerCard::after {
+  display: none !important;
+  content: none !important;
+}
+
+.speakerStack .speakerCard strong {
+  color: #d5ad55 !important;
+  text-shadow: 0 0 18px rgba(213, 173, 85, .18);
+}
+
+
+/* Speaker announcement: keep the main card, remove the stacked corner tabs. */
+.speakerStack .speakerCard {
+  display: none !important;
+}
+
+.speakerStack .speakerCard:nth-child(3) {
+  display: flex !important;
+  position: relative !important;
+  inset: auto !important;
+  width: 250px !important;
+  height: 330px !important;
+  transform: none !important;
+  opacity: 1 !important;
+  padding: 28px !important;
+  border: 1px solid rgba(213, 173, 85, .28) !important;
+  border-radius: 18px !important;
+  background: linear-gradient(145deg, rgba(34, 29, 20, .94), rgba(10, 10, 9, .98)) !important;
+  box-shadow: 0 24px 70px rgba(0, 0, 0, .32), inset 0 1px rgba(255, 255, 255, .045) !important;
+}
+
+.speakerStack .speakerCard:nth-child(3)::before,
+.speakerStack .speakerCard:nth-child(3)::after {
+  display: none !important;
+  content: none !important;
+}
