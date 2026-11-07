@@ -2082,27 +2082,3 @@ details p {
     max-width: none;
   }
 }
-
-
-/* Existing dotted artwork: brighter event-gold treatment only. */
-.dotCloud {
-  background: radial-gradient(circle, rgba(231, 195, 111, 1) 0 1.35px, transparent 1.8px) !important;
-  opacity: 1 !important;
-  filter:
-    drop-shadow(0 0 5px rgba(231, 195, 111, .72))
-    drop-shadow(0 0 16px rgba(213, 173, 85, .42)) !important;
-}
-
-.hostRegionArt:before {
-  background: radial-gradient(circle, rgba(231, 195, 111, .72) 0 1.15px, transparent 1.85px) !important;
-  opacity: 1 !important;
-}
-
-
-/* Venue page now presents the single confirmed event space. */
-.venuePage .venuePlan {
-  grid-template-columns: minmax(0, 1fr);
-  background: transparent;
-  border: 0;
-  gap: 0;
-}

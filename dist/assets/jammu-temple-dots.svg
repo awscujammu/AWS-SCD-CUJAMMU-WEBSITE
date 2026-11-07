@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 300" role="img" aria-label="Dotted Jammu temple silhouette">
-  <g fill="none" stroke="#E7C36F" stroke-width="3.8" stroke-linecap="round" stroke-dasharray="1 10">
+  <g fill="none" stroke="#c7e1e5" stroke-width="3" stroke-linecap="round" stroke-dasharray="1 10">
     <path d="M28 268h264M48 247h224M65 226h190"/>
     <path d="M79 226v-58h38v58M203 226v-58h38v58"/>
     <path d="M97 168l-18-23h38l-20 23M221 168l-18-23h38l-20 23"/>
@@ -9,7 +9,7 @@
     <path d="M160 134l-34-35h68l-34 35M139 99l21-72 21 72M160 27V8"/>
     <path d="M75 247v21M105 247v21M135 247v21M165 247v21M195 247v21M225 247v21"/>
   </g>
-  <g fill="#FFF0B5" opacity="1">
+  <g fill="#a7f432" opacity=".85">
     <circle cx="160" cy="8" r="2.5"/><circle cx="97" cy="73" r="2.5"/><circle cx="221" cy="73" r="2.5"/>
   </g>
 </svg>
