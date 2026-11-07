@@ -2082,3 +2082,8 @@ details p {
     max-width: none;
   }
 }
+
+
+/* Single main venue layout after removing breakout-room references */
+#venue .featureGrid { grid-template-columns: 1fr; }
+.venuePlan { grid-template-columns: minmax(0, 1fr); }
