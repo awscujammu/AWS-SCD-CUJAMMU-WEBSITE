@@ -1761,3 +1761,34 @@ video {
   display: none !important;
   content: none !important;
 }
+
+
+/* Venue feature: one full-width Main Stage card */
+#venue .featureGrid {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) !important;
+  width: 100%;
+  gap: 0 !important;
+}
+#venue .featureGrid > .feature {
+  width: 100%;
+  min-height: 340px;
+  padding: clamp(32px, 5vw, 64px) !important;
+  justify-content: center;
+}
+#venue .featureGrid > .feature h3 {
+  max-width: 900px;
+  font-size: clamp(2rem, 4vw, 3.25rem);
+  line-height: 1.18;
+  margin: 14px 0 18px !important;
+}
+#venue .featureGrid > .feature p {
+  max-width: 760px;
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
+}
+@media (max-width: 760px) {
+  #venue .featureGrid > .feature {
+    min-height: 260px;
+    padding: 28px 24px !important;
+  }
+}

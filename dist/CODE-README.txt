@@ -18,14 +18,3 @@ Code style
 The HTML, CSS and JavaScript have been formatted with consistent indentation
 and line breaks to make the files easier to read, review and maintain.
 Comments are retained. Formatting was intended to preserve existing behaviour.
-
-Editing tips
-------------
-1. Open the dist folder in VS Code.
-2. Edit the relevant HTML, CSS or JavaScript file.
-3. Keep asset paths relative to the HTML pages.
-4. Test the site locally before deploying.
-5. Deploy the contents of this dist folder to Netlify.
-
-For organiser photos, see assets/subteam-*.webp.
-For the site logo, see assets/aws-scd-jammu-mark.svg.
