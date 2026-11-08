@@ -1,10 +1,8 @@
 AWS Student Community Day Jammu — website source
-=================================================
 
 This folder contains the website files ready for deployment.
 
 Project structure
------------------
  *.html                 Individual website pages
  assets/site.js         Shared navigation, footer and common page behaviour
  assets/gda.js          Event interactions and registration-related behaviour
