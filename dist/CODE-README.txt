@@ -12,8 +12,3 @@ Project structure
 - assets/*.css           Layout, theme, responsive styles and visual effects
 - assets/*.svg           Logos, icons and cursor artwork
 - assets/*.webp, *.png   Website photographs and graphics
-
-Code style
-----------
-The HTML, CSS and JavaScript have been formatted with consistent indentation
-and line breaks to make the files easier to read, review and maintain.

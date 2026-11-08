@@ -1780,3 +1780,14 @@ body {
     grid-template-columns: minmax(0, 1fr) !important;
   }
 }
+
+
+/* Mobile reveal fix: prevent delayed blank space in sponsorship areas */
+@media (max-width: 650px) {
+  #sponsorship[data-rail-reveal],
+  body:has(.partnerActions) [data-rail-reveal] {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: opacity .15s ease !important;
+  }
+}
