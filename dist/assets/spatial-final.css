@@ -1735,3 +1735,41 @@ video {
 .freeRegPanel > a.externalStudentRegistration {
   display: inline-flex;
 }
+
+
+/* Requested mobile horizontal-overflow fix: prevent page-level side scrolling. */
+html {
+  max-width: 100%;
+  overflow-x: clip;
+}
+body {
+  max-width: 100%;
+  overflow-x: clip;
+}
+
+/* LinkedIn icon beside the existing footer creator credits. */
+.footerCredits {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.footerLinkedIn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 20px;
+  width: 20px;
+  height: 20px;
+  color: #0a66c2 !important;
+  vertical-align: middle;
+  text-decoration: none;
+}
+.footerLinkedIn svg {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+.footerLinkedIn:hover {
+  color: #3695ee !important;
+}

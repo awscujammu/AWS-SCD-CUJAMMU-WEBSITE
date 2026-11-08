@@ -815,7 +815,7 @@ details p {
 .tickerTrack {
   display: flex;
   width: max-content;
-  animation: marquee 28s linear infinite;
+  animation: marquee 12s linear infinite;
 }
 .tickerItem {
   display: flex;
