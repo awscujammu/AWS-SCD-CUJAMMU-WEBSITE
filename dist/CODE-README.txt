@@ -17,4 +17,3 @@ Code style
 ----------
 The HTML, CSS and JavaScript have been formatted with consistent indentation
 and line breaks to make the files easier to read, review and maintain.
-Comments are retained. Formatting was intended to preserve existing behaviour.

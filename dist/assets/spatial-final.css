@@ -1773,3 +1773,10 @@ body {
 .footerLinkedIn:hover {
   color: #3695ee !important;
 }
+
+/* Mobile-only organising sub-team layout: one card per row */
+@media (max-width: 560px) {
+  .subTeamGrid {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+}
